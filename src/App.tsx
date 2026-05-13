@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Login from "./pages/Login";
-import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
+import { HashRouter, Route, Routes, Navigate } from "react-router-dom";
 import Student from "./pages/Student";
 import Staff from "./pages/Staff";
 import Advisor from "./pages/Advisor";
@@ -29,7 +29,7 @@ const App = () => {
 
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="login" element={<Login onLogin={handleLogin} />} />
           <Route
@@ -84,7 +84,7 @@ const App = () => {
             }
           />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 };
