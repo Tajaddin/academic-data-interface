@@ -2,6 +2,8 @@
 
 React 18 + TypeScript SPA for managing university academic data across four user roles. Built for COP 4020 at USF. Vite dev server, React Router v6, Bootstrap 5 UI.
 
+Live demo: https://tajaddin.github.io/academic-data-interface/
+
 ## Hero numbers
 
 | Metric | Value |
