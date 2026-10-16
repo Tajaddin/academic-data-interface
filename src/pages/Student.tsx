@@ -5,7 +5,7 @@ import AddDrop from "../components/AddDrop";
 import StudentInfo from "../components/StudentInfo";
 
 const Student = () => {
-  let pages = ["Home", "Add/Drop", "What-If"];
+  const pages = ["Home", "Add/Drop", "What-If"];
 
   return (
     <>

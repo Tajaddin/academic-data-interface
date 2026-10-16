@@ -4,7 +4,7 @@ import Summary from "../components/Summary";
 import ModifyCourses from "../components/ModifyCourses";
 
 const Staff = () => {
-  let pages = ["Summary", "Modify Courses"];
+  const pages = ["Summary", "Modify Courses"];
 
   return (
     <>

@@ -5,7 +5,7 @@ import WhatIf from "../components/WhatIf";
 import Summary from "../components/Summary";
 
 const Advisor = () => {
-  let pages = ["Summary", "Add/Drop", "What-If"];
+  const pages = ["Summary", "Add/Drop", "What-If"];
 
   return (
     <>

@@ -4,7 +4,7 @@ import Summary from "../components/Summary";
 import InstructorInfo from "../components/InstructorInfo";
 
 const Instructor = () => {
-  let pages = ["Home", "Summary"];
+  const pages = ["Home", "Summary"];
 
   return (
     <>
